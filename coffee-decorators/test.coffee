@@ -12,13 +12,13 @@ suite 'Beverages and condiments', ->
     beverage = new Espresso
     beverage = new DoubleShot beverage
     expect(beverage.description()).to.equal 'double espresso'
-    expect(beverage.cost()).to.eaul 2.99
+    expect(beverage.cost()).to.equal 2.99
 
   test 'house blend and soya', ->
     beverage = new HouseBlend
     beverage = new Soya beverage
     expect(beverage.description()).to.equal 'house blend coffee with soya'
-    expect(beverage.cost()).to.equal .99
+    expect(beverage.cost()).to.equal 2.10
 
   test 'dark roasted, double mocha with a whip', ->
     beverage = new DarkRoast
