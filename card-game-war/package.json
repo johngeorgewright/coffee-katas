@@ -3,6 +3,10 @@
   "version": "0.0.0",
   "description": "Card game war kata",
   "main": "index.coffee",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
+  },
   "scripts": {
     "test": "mocha --compilers coffee:coffee-script/register test.coffee"
   },

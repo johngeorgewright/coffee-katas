@@ -3,6 +3,10 @@
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
+  },
   "scripts": {
     "test": "mocha --compilers coffee:coffee-script/register --ui tdd test.coffee"
   },
