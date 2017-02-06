@@ -1,6 +1,8 @@
 Coffee Katas
 ============
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/johngeorgewright/coffee-katas.svg)](https://greenkeeper.io/)
+
 Want to try your hand at some CoffeeScript?
 
 How to
